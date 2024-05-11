@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 4rem;
+}
+
+input, select {
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.boton {
+    margin: 0 0 0 14rem;
+}

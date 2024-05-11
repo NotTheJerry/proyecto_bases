@@ -1,0 +1,90 @@
+
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .padre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid black; */
+  }
+  
+  .subtitulo_formulario {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 10%;
+    align-items: center;
+    background-color: white;
+  }
+
+  .sub {
+    background-color: transparent ;
+    /* border: 1px solid black; */
+  }
+  
+  .form-group {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+  }
+  
+  .form-group label {
+    width: 100%;
+    background-color: transparent;
+    /* border: 1px solid black; */
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 1rem;
+  }
+  
+  .div_boton {
+    /* border: 1px solid black; */
+    height: 15%;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

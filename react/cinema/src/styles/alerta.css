@@ -1,0 +1,8 @@
+.alerta {
+    display: flex;
+    justify-content: center;
+    border: 3px solid red;
+    width: 70%;
+    margin: 3rem auto;
+    padding: 1rem;
+}
